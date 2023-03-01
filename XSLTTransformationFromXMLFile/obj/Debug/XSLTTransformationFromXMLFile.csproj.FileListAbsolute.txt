@@ -1,0 +1,8 @@
+D:\MyProject\DotNet\XSLTValidatorByXML\XSLTTransformationFromXMLFile\bin\Debug\XSLTTransformationFromXMLFile.exe.config
+D:\MyProject\DotNet\XSLTValidatorByXML\XSLTTransformationFromXMLFile\bin\Debug\XSLTTransformationFromXMLFile.exe
+D:\MyProject\DotNet\XSLTValidatorByXML\XSLTTransformationFromXMLFile\bin\Debug\XSLTTransformationFromXMLFile.pdb
+D:\MyProject\DotNet\XSLTValidatorByXML\XSLTTransformationFromXMLFile\obj\Debug\XSLTTransformationFromXMLFile.csproj.AssemblyReference.cache
+D:\MyProject\DotNet\XSLTValidatorByXML\XSLTTransformationFromXMLFile\obj\Debug\XSLTTransformationFromXMLFile.csproj.SuggestedBindingRedirects.cache
+D:\MyProject\DotNet\XSLTValidatorByXML\XSLTTransformationFromXMLFile\obj\Debug\XSLTTransformationFromXMLFile.csproj.CoreCompileInputs.cache
+D:\MyProject\DotNet\XSLTValidatorByXML\XSLTTransformationFromXMLFile\obj\Debug\XSLTTransformationFromXMLFile.exe
+D:\MyProject\DotNet\XSLTValidatorByXML\XSLTTransformationFromXMLFile\obj\Debug\XSLTTransformationFromXMLFile.pdb
