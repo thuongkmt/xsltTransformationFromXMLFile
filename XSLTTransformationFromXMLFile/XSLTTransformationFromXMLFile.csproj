@@ -50,8 +50,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Allocation2DallasSOGroup.xslt" />
     <Content Include="Allocation2DallasSO.xslt" />
     <Content Include="Allocation_output.xml" />
+    <Content Include="output.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
