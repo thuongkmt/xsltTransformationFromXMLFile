@@ -31,7 +31,7 @@ namespace XSLTTransformationFromXMLFile
             xslt.Load(stylesheet2, new XsltSettings { EnableScript = true }, null);
             // Execute the XSLT transform.
             FileStream outputStream2 = new FileStream(outputFile2, FileMode.Append);
-            xslt.Transform(sourceFile2, null, outputStream);
+            xslt.Transform(sourceFile2, null, outputStream2);
         }
     }
 }
