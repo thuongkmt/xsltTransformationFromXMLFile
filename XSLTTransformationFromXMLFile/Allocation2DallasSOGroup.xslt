@@ -4,15 +4,15 @@
 
 
   <xsl:output method="xml" indent="yes"/>
-  <xsl:key name="groups" match="/Orders/Order/Header" use="InvoiceNumber" />
+  <xsl:key name="groups" match="/Orders/Order" use="InvoiceNumber" />
 
 
   <xsl:template match="/Orders">
     <Orders>
-      <xsl:apply-templates select="Order/Header[generate-id() = generate-id(key('groups', InvoiceNumber)[1])]"/>
+      <xsl:apply-templates select="Order[generate-id() = generate-id(key('groups', InvoiceNumber)[1])]"/>
     </Orders>
   </xsl:template>
-  <xsl:template match="Order/*">
+  <xsl:template match="Order">
     <Order>
       <Header>
         <DeliveryDate>
@@ -22,7 +22,7 @@
           <xsl:value-of select="InvoiceNumber"/>
         </InvoiceNumber>
       </Header>
-      
+
       <xsl:for-each select="key('groups', InvoiceNumber)">
         <Detail>
           <ProductCode>
@@ -33,7 +33,7 @@
 
       <Trailer>
         <DistributionCentre>
-          <xsl:value-of select="DistributionCentre"/>
+          <xsl:value-of select="otalOrderQuantity"/>
         </DistributionCentre>
         <CustomerNumber>
           <xsl:value-of select="CustomerNumber"/>
