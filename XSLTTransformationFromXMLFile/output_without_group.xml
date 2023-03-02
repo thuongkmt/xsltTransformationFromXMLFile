@@ -1,4 +1,4 @@
-<ns0:Orders xmlns:ns0="http://IHG.IIP.Core.IntegrationAccount.TotalTools.DallasSO">
+<Orders xmlns:ns0="http://IHG.IIP.Core.IntegrationAccount.TotalTools.DallasSO">
   <Order>
     <Header>
       <DistributionCentre>18</DistributionCentre>
@@ -14535,4 +14535,4 @@
       <otalOrderQuantity>1</otalOrderQuantity>
     </Trailer>
   </Order>
-</ns0:Orders>
+</Orders>

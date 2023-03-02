@@ -55,7 +55,7 @@
     <Content Include="Allocation_output.xml" />
     <Content Include="output.xml" />
     <Content Include="output_without_group.xml" />
-    <Content Include="output_with_group.xml" />
+    <Content Include="output_group.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

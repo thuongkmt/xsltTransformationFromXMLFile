@@ -16,22 +16,27 @@ namespace XSLTTransformationFromXMLFile
 
         private const string sourceFile2 = @"D:\MyProject\DotNet\XSLTValidatorByXML\\XSLTTransformationFromXMLFile\output_without_group.xml";
         private const string stylesheet2 = @"D:\MyProject\DotNet\XSLTValidatorByXML\\XSLTTransformationFromXMLFile\Allocation2DallasSOGroup.xslt";
-        private const string outputFile2 = @"D:\MyProject\DotNet\XSLTValidatorByXML\\XSLTTransformationFromXMLFile\output_with_group.xml";
+        private const string outputFile2 = @"D:\MyProject\DotNet\XSLTValidatorByXML\\XSLTTransformationFromXMLFile\output_group.xml";
         static void Main(string[] args)
         {
-            // Enable XSLT debugging.
+            /*// Enable XSLT debugging.
             XslCompiledTransform xslt = new XslCompiledTransform(true);
             // Compile the style sheet.
             xslt.Load(stylesheet, new XsltSettings { EnableScript = true }, null);
             // Execute the XSLT transform.
             FileStream outputStream = new FileStream(outputFile, FileMode.Append);
-            xslt.Transform(sourceFile, null, outputStream);
+            xslt.Transform(sourceFile, null, outputStream);*/
 
+            // Enable XSLT debugging.
+            XslCompiledTransform xslt2 = new XslCompiledTransform(true);
             // Compile the style sheet.
-            xslt.Load(stylesheet2, new XsltSettings { EnableScript = true }, null);
+            xslt2.Load(stylesheet2);
             // Execute the XSLT transform.
-            FileStream outputStream2 = new FileStream(outputFile2, FileMode.Append);
-            xslt.Transform(sourceFile2, null, outputStream2);
+            FileStream outputStream2 = new FileStream(outputFile2, FileMode.Create);
+            xslt2.Transform(sourceFile2, null, outputStream2);
+
+            Console.WriteLine("---------------------------------^---------------------------------");
+            Console.ReadLine();
         }
     }
 }
