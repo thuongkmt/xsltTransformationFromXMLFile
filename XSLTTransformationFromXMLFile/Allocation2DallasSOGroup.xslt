@@ -24,11 +24,11 @@
       </Header>
       
       <xsl:for-each select="key('groups', InvoiceNumber)">
-          <Detail>
-            <ProductCode>
-              <xsl:value-of select="Detail/ProductCode"/>
-            </ProductCode>
-          </Detail>
+        <Detail>
+          <ProductCode>
+            <xsl:value-of select="ProductCode"/>
+          </ProductCode>
+        </Detail>
       </xsl:for-each>
 
       <Trailer>
