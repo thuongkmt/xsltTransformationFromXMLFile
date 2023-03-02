@@ -47,6 +47,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Allocation\AllocationGroup.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
