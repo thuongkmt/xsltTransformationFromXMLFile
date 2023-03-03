@@ -1,4 +1,4 @@
-﻿<Root xmlns:ns0="http://IHG.IIP.Core.IntegrationAccount.TotalTools.Allocation">
+﻿<Root xmlns="http://IHG.IIP.Core.IntegrationAccount.TotalTools.Allocation">
   <Item xmlns="">
     <StoreNo>315</StoreNo>
     <WH>003</WH>

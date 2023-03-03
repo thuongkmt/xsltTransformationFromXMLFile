@@ -58,7 +58,7 @@
     <Content Include="Allocation\Note.txt" />
     <Content Include="Allocation\output.xml" />
     <Content Include="Allocation\RawAllocation.xml" />
-    <Content Include="Allocation\RawAllocationToAllocationGroup.xslt">
+    <Content Include="Allocation\AllocationToAllocationGroup.xslt">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Allocation_output.xml" />

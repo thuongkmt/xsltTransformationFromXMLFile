@@ -12,7 +12,7 @@ namespace XSLTTransformationFromXMLFile
     {
         private const string rootPath = @"D:\\MyProject\\DotNet\\XSLTValidatorByXML\\XSLTTransformationFromXMLFile\\Allocation";
         private static string sourceFile = $@"{rootPath}\\RawAllocation.xml";
-        private static string stylesheet = $@"{rootPath}\\RawAllocationToAllocationGroup.xslt";
+        private static string stylesheet = $@"{rootPath}\\AllocationToAllocationGroup.xslt";
         private static string outputFile = $@"{rootPath}\\output.xml";
         static void Main(string[] args)
         {
