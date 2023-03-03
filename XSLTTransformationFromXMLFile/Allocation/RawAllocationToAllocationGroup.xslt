@@ -25,6 +25,7 @@
         <StoreRef>
           <xsl:value-of select="StoreRef"/>
         </StoreRef>
+        
       </Header>
 
       <xsl:for-each select="key('groups', SONo)">
@@ -37,6 +38,19 @@
           </Qty>
         </Detail>
       </xsl:for-each>
+
+      <Trailer>
+        <xsl:for-each select="key('groups', SONo)">
+          <xsl:if test="position()=last()">
+            <DetailLines>
+              <xsl:value-of select="last()" />
+            </DetailLines>
+          </xsl:if>
+        </xsl:for-each>
+        <SumOfQuantity>
+          <xsl:value-of select="sum(key('groups', SONo)/Qty)"/>
+        </SumOfQuantity>
+      </Trailer>
     </Item>
   </xsl:template>
 
