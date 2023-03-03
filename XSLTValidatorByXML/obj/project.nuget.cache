@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WPHwbOPFfRAv/Z3XCDavrq0TObyOhZHlm+Kk8zSCkQud3HzDyXuLTL2/g0l5eP/T7lUJCWwamGVXNcGR5gz1Hg==",
+  "dgSpecHash": "jpQTKpBF6q1Hr6vSNh5mkWMiG42N1DBlP4mDa1eeu98WK/LM6anILcDvATlhP/olaGtG/YIqlwdsSCP4kQO+ng==",
   "success": true,
-  "projectFilePath": "D:\\MyProject\\DotNet\\XSLTValidatorByXML\\XSLTValidatorByXML\\XSLTValidatorByXML.csproj",
+  "projectFilePath": "F:\\SmartOSC\\Project\\MyProject\\xsltTransformationFromXMLFile\\XSLTValidatorByXML\\XSLTValidatorByXML.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
