@@ -25,9 +25,7 @@
         <StoreRef>
           <xsl:value-of select="StoreRef"/>
         </StoreRef>
-        
       </Header>
-
       <xsl:for-each select="key('groups', SONo)">
         <Detail>
           <SKU>
@@ -36,9 +34,11 @@
           <Qty>
             <xsl:value-of select="Qty"/>
           </Qty>
+          <LineNo>
+            <xsl:value-of select="LineNo"/>
+          </LineNo>
         </Detail>
       </xsl:for-each>
-
       <Trailer>
         <xsl:for-each select="key('groups', SONo)">
           <xsl:if test="position()=last()">
@@ -53,5 +53,4 @@
       </Trailer>
     </Item>
   </xsl:template>
-
 </xsl:stylesheet>

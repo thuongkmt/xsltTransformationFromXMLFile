@@ -1,0 +1,2 @@
+﻿In the RawAllocation.xml file we should replace
+<Root xmlns="http://IHG.IIP.Core.IntegrationAccount.TotalTools.Allocation"> by <Root xmlns:ns0="http://IHG.IIP.Core.IntegrationAccount.TotalTools.Allocation">

@@ -55,9 +55,12 @@
   <ItemGroup>
     <Content Include="Allocation2DallasSOGroup.xslt" />
     <Content Include="Allocation2DallasSO.xslt" />
+    <Content Include="Allocation\Note.txt" />
     <Content Include="Allocation\output.xml" />
     <Content Include="Allocation\RawAllocation.xml" />
-    <Content Include="Allocation\RawAllocationToAllocationGroup.xslt" />
+    <Content Include="Allocation\RawAllocationToAllocationGroup.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Allocation_output.xml" />
     <Content Include="output.xml" />
     <Content Include="output_without_group.xml" />

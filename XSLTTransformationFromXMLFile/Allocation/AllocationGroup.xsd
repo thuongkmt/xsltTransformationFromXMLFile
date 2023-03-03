@@ -21,6 +21,15 @@
                   <xs:sequence>
                     <xs:element name="SKU" type="xs:string" />
                     <xs:element name="Qty" type="xs:decimal" />
+                    <xs:element name="LineNo" type="xs:unsignedByte" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Trailer">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="DetailLines" type="xs:unsignedByte" />
+                    <xs:element name="SumOfQuantity" type="xs:unsignedByte" />
                   </xs:sequence>
                 </xs:complexType>
               </xs:element>
