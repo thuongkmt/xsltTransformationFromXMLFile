@@ -10,7 +10,7 @@ namespace XSLTTransformationFromXMLFile
 {
     internal class Program
     {
-        private const string rootPath = @"F:\SmartOSC\Project\MyProject\xsltTransformationFromXMLFile\XSLTTransformationFromXMLFile\\Allocation";
+        private const string rootPath = @"D:\MyProject\DotNet\XSLTValidatorByXML\XSLTTransformationFromXMLFile\Allocation";
         private static string sourceFile = $@"{rootPath}\\RawAllocation.xml";
         private static string stylesheet = $@"{rootPath}\\AllocationToAllocationGroup.xslt";
         private static string outputFile = $@"{rootPath}\\output.xml";
